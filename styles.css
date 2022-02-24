@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,600;0,700;1,500&display=swap");
+html {
+  font-family: "Jost", sans-serif;
+  background-color: #1e1f24;
+  color: #3ac0ba;
+}
+body {
+  margin-left: 5vw;
+}
+h1 {
+  /* background-color: yellow; */
+  font-size: 6vw;
+  margin-top: 150px;
+  margin-bottom: 0px;
+  padding-bottom: 30px;
+}
+#big {
+  /* background-color: yellow; */
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  bottom: 15vw;
+  font-size: 25vw;
+  margin: 17vh 0vw 0vw 0vw;
+  padding: 0px;
+}
+/* swing animation */
+@-webkit-keyframes swing {
+  15% {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+  }
+  30% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  50% {
+    -webkit-transform: translateY(3px);
+    transform: translateY(3px);
+  }
+  65% {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+  80% {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes swing {
+  15% {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+  }
+  30% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  50% {
+    -webkit-transform: translateY(3px);
+    transform: translateY(3px);
+  }
+  65% {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+  80% {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.swing:hover {
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
