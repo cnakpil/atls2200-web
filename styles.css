@@ -18,7 +18,7 @@ h1 {
 #big {
   /* background-color: yellow; */
   width: 100%;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: center;
   position: relative;
   bottom: 15vw;
@@ -92,4 +92,8 @@ h1 {
 }
 #agenda {
   margin-bottom: 50vh;
+}
+#reminder {
+  margin: 0 auto;
+  text-align: center;
 }
