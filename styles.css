@@ -15,6 +15,23 @@ h1 {
   margin-bottom: 0px;
   padding-bottom: 30px;
 }
+a:link {
+  color: #3ac0ba;
+  text-decoration: none;
+}
+a:visited {
+  color: #3ac0ba;
+  text-decoration: none;
+}
+a:hover {
+  /* font-weight: bold; */
+  /* font-size: 102%; */
+  text-decoration: underline;
+}
+#checkIn {
+  /* background-color: #3ac0ba; */
+  width: 100%;
+}
 #big {
   /* background-color: yellow; */
   width: 100%;
@@ -23,8 +40,10 @@ h1 {
   position: relative;
   bottom: 15vw;
   font-size: 13vw;
-  margin: 25vh 0vw 0vw 0vw;
   padding: 0px;
+}
+#agenda {
+  height: 50vh;
 }
 /* swing animation */
 @-webkit-keyframes swing {
